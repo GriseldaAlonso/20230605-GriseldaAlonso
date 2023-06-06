@@ -1,0 +1,27 @@
+  202  git init
+  203  git git branch -M main
+  204  git remote add origin https://github.com/GriseldaAlonso/20230605-GriseldaAlonso.git
+  205  touch comandos.txt main.js index.html
+  206  git add .
+  207  git commit -m "commit 01 GriseldaAlonso"
+  208  git push origin main
+  209  git branch feature01
+  210  git switch feature01
+  211  mkdir Terminal Hardware
+  212  cd Terminal
+  213  touch resumen.txt
+  214  cd ..
+  215  cd Hardware
+  216  touch resumen.txt
+  217  cd ..
+  218  git add .
+  219  git commit -m "commit 02 GriseldaAlonso"
+  220  git push origin feature01
+  221  git branch feature02
+  222  git checkout feature02
+  223  git add .
+  224  git commit -m "commit 03 GriseldaAlonso"
+  225  git push origin feature02
+  226  git checkout main
+  227  git mv comandos.txt comandosUtilizados.txt
+  228  history
