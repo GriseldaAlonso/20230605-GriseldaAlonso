@@ -1,0 +1,5 @@
+mkdir --> para crear un directorio
+touch --> para crear un archivo
+ls -R --> para listar el contenido de un directorio
+mv --> para mover un archivo de su ubicación
+rm --> para eliminar archivos
